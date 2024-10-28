@@ -122,12 +122,12 @@ bool IsInTriggerZone(WeaponXEntity &weapon, Vector localCameraPos, Entity &targe
         break;
     case idweapon_p2020:
     case idweapon_mozambique:
-        delay = 220;
+        delay = 10;
         boneIndex = 2;
         break;
     case idweapon_mastiff:
     case idweapon_peacekeeper:
-        delay = 400;
+        delay = 100;
         boneIndex = 2;
         break;
     case idweapon_sentinel:
@@ -152,7 +152,7 @@ bool IsInTriggerZone(WeaponXEntity &weapon, Vector localCameraPos, Entity &targe
         boneIndex = 0;
         break;
     case idweapon_wingman:
-        delay = 500;
+        delay = 50;
         boneIndex = 0;
         break;
     default:
