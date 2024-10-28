@@ -544,11 +544,11 @@ void DoFlick(Entity &from, Entity &target, float *m_vMatrix)
     {
     case idweapon_mastiff:
     case idweapon_peacekeeper:
-        delay = 300;
+        delay = 100;
         boneIndex = 2;
         break;
     case idweapon_sentinel:
-        delay = 800;
+        delay = 200;
         boneIndex = 0;
         break;
     case idweapon_longbow:
@@ -569,7 +569,7 @@ void DoFlick(Entity &from, Entity &target, float *m_vMatrix)
         boneIndex = 0;
         break;
     case idweapon_wingman:
-        delay = 400;
+        delay = 50;
         boneIndex = 0;
         break;
     default:
